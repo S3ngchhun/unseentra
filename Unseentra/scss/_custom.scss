@@ -1,0 +1,81 @@
+$primary:    #263873;
+$info:    #178BE4;
+$warning:  #FCAC19;
+$danger:     #E82727;
+$success:   #03A504;
+$dark: #000000;
+$light: #F5F6F7;
+$darkLight: #E9EBEE;
+$white: #ffffff;
+$secondary: #7F7F7F;
+$qanelassemibold: "qanelassemibold", sans-serif;
+$qanelasextrabold: "qanelasextrabold", sans-serif;
+
+.qanelasextrabold{
+    font-family: $qanelasextrabold;
+}
+
+.qanelassemibold{
+    font-family: $qanelassemibold;
+}
+
+h6{
+    font-size: 1.125rem;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.bg-gradient{
+    background-image: linear-gradient(0.5turn, #FCAC19, #F47820 );
+    border: 0;
+    color: $white;
+
+    &:hover{
+        background: linear-gradient(0.25turn, #FCAC19, #F47820 );
+        color: $white;
+    }
+}
+
+.bg_img{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg_img_cover{
+    background-size: cover;
+}
+
+small{
+    font-size: 14px;
+}
+
+.bg_img_contain{
+    background-size: contain;
+}
+
+.rounded-circle{
+    border-radius: 100px!important;
+}
+
+.btn{
+    height: 44px;
+    padding: 0 20px;
+    line-height: 44px;
+}
+
+.valign_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.sticky_top{
+    position: -webkit-sticky; /* Safari */
+    position: sticky!important;
+    top: 1rem;
+}
