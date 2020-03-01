@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="50" viewBox="0 0 30 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcac19"/>
+      <stop offset="1" stop-color="#f47820"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_237" data-name="Group 237" transform="translate(-103 -2360)">
+    <path id="Path_74" data-name="Path 74" d="M0,0H30V50L0,40Z" transform="translate(103 2360)" fill="url(#linear-gradient)"/>
+    <path id="hotjar-brands" d="M13.4,5.21C10.99.935,3.922,0,3.922,0s3.261,3.561-.906,6.377C.38,8.155-.662,10.465.467,12.987,1.332,14.919,3.161,15.706,5.132,16A5.726,5.726,0,0,1,5,11.819c1.842,2.787,5.323,0,3.574-3.029,2.29.5,2.632,4.471.874,6.952a7.172,7.172,0,0,0,4.8-4.7A8.1,8.1,0,0,0,13.4,5.21Z" transform="translate(110.984 2372)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+.header{
+    position: fixed;
+    z-index: 100;
+    transition: all 0.3s;
+}
+.header.active{
+    background-color: #263873!important;
+}
+.header_logo{
+    padding-left: 75px;
+}
