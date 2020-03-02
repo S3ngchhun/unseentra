@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+.header {
+    position: fixed;
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+.header.active {
+    background-color: #263873!important;
+}
+
+.header_logo {
+    padding-left: 75px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-weight: 800;
+    font-size: 3em;
+    font-family: 'Open Sans';
+}
+
+.hero-text p {
+    margin-bottom: 100px;
+}
+
+.hero-text .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.hero-text .input-group input {
+    height: 60px;
+    padding: 20px;
+    line-height: 60px;
+    border: 0;
+    width: 90%;
+}
+
+.hero-text .input-group .input-group-append .btn {
+    height: 52px;
+    padding: 0 40px;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0.5rem;
+}
+
+.hero-text .input-group .input-group-append .btn i {
+    padding-right: 10px;
+}
+
+section.popular_destinations {
+    margin-top: -9rem;
+    padding: 0 6rem;
+}
+
+.popular_destinations .row .col-md-2 p {
+    color: #263873;
+    opacity: 0.1;
+    font-family: 'Open Sans';
+    transform: rotate(-90deg) translate(-100%, 100%);
+    transform-origin: 0 100%;
+    top: 10rem;
+    position: relative;
+}
+
+img.card-img {
+    filter: brightness(0.85);
+}
+
+.card-img-overlay p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.popular_destinations .row .col-md-10 .row .card {
+    border: none;
+}
+
+.service_characteristics {
+    background-color: #263873 !important;
+    padding: 3rem 3rem 1.7rem 3rem;
+}
+
+.activities_cards .card {
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+}
+
+.card-body .symbol_underline img {
+    margin: 0 1px;
+}
+
+.card-body .location {
+    color: #263873;
+    font-size: 12px;
+}
+
+.activity_name {
+    font-size: 17px;
+}
+
+.hot-topic {
+    display: none;
+}
+
+.hot-topic.active {
+    display: block !important;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+}
+
+.ads_banner {
+    background-color: #263873 !important;
+}
+
+.ads_banner img {
+    position: relative;
+    right: 0;
+}
+
+
+/* .banner_content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */

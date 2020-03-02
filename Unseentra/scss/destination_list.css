@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+.text_purple {
+    color: #263873 !important;
+}
+
+.header {
+    position: fixed;
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+.header.active {
+    background-color: #263873!important;
+}
+
+.header_logo {
+    padding-left: 75px;
+}
+
+.province_card {
+    min-height: 10rem;
+}
+
+.province_card h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page_tabs {
+    background-color: white;
+}
+
+.tab_items:hover {
+    background-color: #F2F2F2 !important;
+}
+
+.tab_items.active {
+    border-bottom: 3px solid #263873;
+    font-weight: bold;
+}
+
+.tab_items.active:hover {
+    background-color: white !important;
+}
+
+.tab_links {
+    text-decoration: none;
+}
+
+.tab_links:hover {
+    text-decoration: none;
+}
+
+.search_and_filters .search .input_group_wrapper .input-group {
+    background-color: white !important;
+}
+
+.search_and_filters .search .input_group_wrapper .input-group input {
+    height: 60px;
+    padding: 20px;
+    line-height: 60px;
+    border: 0;
+    width: 90%;
+}
+
+.search_and_filters .search .input_group_wrapper .input-group .input-group-append .btn {
+    height: 52px;
+    padding: 0 40px;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0.5rem;
+}
+
+.item_dropdown {
+    background-color: white;
+}
+
+.hot-topic {
+    display: none;
+}
+
+.hot-topic.active {
+    display: block !important;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+}
+
+.card-body .location {
+    color: #263873;
+    font-size: 12px;
+}
+
+.activity_name {
+    font-size: 17px;
+}
