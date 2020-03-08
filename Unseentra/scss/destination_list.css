@@ -32,6 +32,10 @@
     background-color: white;
 }
 
+.tab_items {
+    cursor: pointer;
+}
+
 .tab_items:hover {
     background-color: #F2F2F2 !important;
 }
@@ -39,25 +43,18 @@
 .tab_items.active {
     border-bottom: 3px solid #263873;
     font-weight: bold;
+    cursor: default;
 }
 
 .tab_items.active:hover {
     background-color: white !important;
 }
 
-.tab_links {
-    text-decoration: none;
-}
-
-.tab_links:hover {
-    text-decoration: none;
-}
-
-.search_and_filters .search .input_group_wrapper .input-group {
+.attractions_and_shows .search .input_group_wrapper .input-group {
     background-color: white !important;
 }
 
-.search_and_filters .search .input_group_wrapper .input-group input {
+.attractions_and_shows .search .input_group_wrapper .input-group input {
     height: 60px;
     padding: 20px;
     line-height: 60px;
@@ -65,7 +62,7 @@
     width: 90%;
 }
 
-.search_and_filters .search .input_group_wrapper .input-group .input-group-append .btn {
+.attractions_and_shows .search .input_group_wrapper .input-group .input-group-append .btn {
     height: 52px;
     padding: 0 40px;
     right: 4px;
@@ -96,4 +93,33 @@
 
 .activity_name {
     font-size: 17px;
+}
+
+.card.active::before {
+    content: "";
+    width: 30px;
+    height: 50px;
+    background-image: url("../img/hot-topic.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 1rem !important;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+}
+
+.tab_content {
+    display: none;
+}
+
+.tab_content.active {
+    display: block;
+}
+
+.province_list .province_items div.active {
+    background-color: #263873 !important;
+    color: white;
+}
+
+.best_months .active {
+    background-image: linear-gradient(0.5turn, #FCAC19, #F47820);
 }

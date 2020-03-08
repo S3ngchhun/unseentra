@@ -94,96 +94,461 @@
     </section>
 
     <!-- Page Tabs -->
-    <section class="container-fluid page_tabs">
+    <section class="container-fluid page_tabs border-bottom">
         <div class="row">
             <div class="d-flex mx-auto text_purple">
-                <div class="tab_items p-3">
-                    <a href="#!" class="tab_links text-uppercase">overview</a>
+                <div class="tab_items overview_tab text-uppercase p-3 active">
+                    Overview
                 </div>
-                <div class="tab_items p-3 active">
-                    <a href="#!" class="tab_links text-uppercase ">Attractions & Shows</a>
+                <div class="tab_items attractions_tab text-uppercase p-3">
+                    Attractions and Shows
                 </div>
-                <div class="tab_items p-3">
-                    <a href="#!" class="tab_links text-uppercase">Tours & Sightseeing</a>
+                <div class="tab_items tour_tab text-uppercase p-3">
+                    Tour & Sightseeing
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Content -->
-    <section class="container search_and_filters my-5">
-        <div class="search row justify-content-between">
-            <div class="title col-md-5">
-                <h1 class="qanelasextrabold text-uppercase">
+    <!-- Overview -->
+    <section class="container-fluid tab_content overview mb-5 active px-0">
+
+        <!-- About Cambodia -->
+        <div class="bg-white about_cambodia py-5">
+            <div class="container">
+                <div class="mb-5">
+                    <h1 class="text-uppercase qanelasextrabold text-center">About Cambodia</h1>
+                    <div class=" symbol_underline valign_wrapper justify-content-center ">
+                        <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                        <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                        <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                        <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                        <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <p>Cambodia Tourism is about tropical beaches, historical monuments, lively nightlife, and beautiful countryside. Due to its moderate tropical weather, Cambodia has been attracting thousands of tourists every year. During travel to
+                            Cambodia, experiences some of its best days in the cold and dry months from November to February. It is the peak tourist season in Cambodia when the temperature goes down to 20°C making the Cambodia trip experience very pleasant
+                            and exciting for the tourists. The city of Phnom Penh, the capital of Cambodia, is a fine specimen of the country's contemporary culture.
+                        </p>
+                        <br>
+                        <p class="lead">
+                            People and Religion in Cambodia
+                        </p>
+                        <p>
+                            With 97% of followers, Buddhism is the main religion in the country. The history of the country also plays an important role in developing Cambodia Tourism industry, because people visit the place to take a look at the marvelous architecture of various
+                            buildings and temples that were built during the 12th century.
+                        </p>
+                        <p>
+                            Being a beautiful country in South East Asia, there are many Cambodia tourist attractions and Cambodia things to do which people must take note of while visiting this country.
+                        </p>
+                        <a href="#!">Read more</a>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded" style="background-image: url('./img/map.png'); background-repeat: no-repeat; background-size: contain; height: 380px; border: 6px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.3);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Explore in Cambodia -->
+        <div class="container explore_in_cambodia py-5 px-0">
+            <div class=" text-center ">
+                <h1 class=" qanelasextrabold text-uppercase mb-1 ">Explore in Cambodia</h1>
+                <div class=" symbol_underline valign_wrapper justify-content-center mb-4 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                </div>
+                <div class="province_list col-md-6 px-0 bg-white mx-auto d-flex text-center rounded">
+                    <div class="province_items col-md-3 p-1 ">
+                        <div class="text-uppercase p-3 rounded active">
+                            Siem Reap
+                        </div>
+                    </div>
+                    <div class="province_items col-md-3 p-1 ">
+                        <div class="text-uppercase p-3 rounded">
+                            Phnom Penh
+                        </div>
+                    </div>
+                    <div class="province_items col-md-3 p-1 ">
+                        <div class="text-uppercase p-3 rounded">
+                            Sihanoukville
+                        </div>
+                    </div>
+                    <div class="province_items col-md-3 p-1 ">
+                        <div class="text-uppercase p-3 rounded">
+                            Battambang
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" mt-5 activities_cards d-flex flex-wrap px-0 ">
+                <div class="card-wrapper col-md-3 px-2">
+                    <div class=" card ">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper col-md-3 px-2">
+                    <div class=" card active">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 text-success text-capitalize ">Available today</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper col-md-3 px-2">
+                    <div class=" card ">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper col-md-3 px-2 ">
+                    <div class=" card ">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Best Time to Visit Cambodia -->
+        <div class="bg-white container best_time_visit pt-5">
+
+            <div class=" content_title text-center ">
+                <h1 class=" qanelasextrabold text-uppercase mb-0 ">Best Time to Visit Cambodia</h1>
+                <p class=" mb-1 ">Plan your trip during best season to experience the best of this stunning destination</p>
+                <div class=" symbol_underline valign_wrapper justify-content-center mb-4 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                </div>
+                <div class="best_months row">
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase active">
+                        Jan
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase active">
+                        Feb
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Mar
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Apr
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        May
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Jun
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Jul
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Aug
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Sep
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase">
+                        Oct
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase active">
+                        Nov
+                    </div>
+                    <div class="col-md-1 px-0 py-3 font-weight-bold text-uppercase active">
+                        Dec
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Things to do in Cambodia -->
+        <div class="container explore_in_cambodia py-5 px-0">
+            <div class=" text-center ">
+                <h1 class=" qanelasextrabold text-uppercase mb-1 ">Things to do in Cambodia</h1>
+                <div class=" symbol_underline valign_wrapper justify-content-center mb-4 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                </div>
+            </div>
+
+            <div class=" mt-5 activities_cards d-flex flex-wrap px-0 ">
+                <div class="card-wrapper col-md-3 px-2">
+                    <div class=" card ">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper col-md-3 px-2">
+                    <div class=" card active">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 text-success text-capitalize ">Available today</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper col-md-3 px-2">
+                    <div class=" card ">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper col-md-3 px-2 ">
+                    <div class=" card ">
+                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                        <div class=" card-body ">
+                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions and Shows -->
+    <section class="container tab_content attractions_and_shows my-5 px-0 ">
+        <div class="search row justify-content-between ">
+            <div class="title col-md-5 ">
+                <h1 class="qanelasextrabold text-uppercase ">
                     Attractions & Shows
                 </h1>
-                <p class="text-uppercase text_purple">
+                <p class="text-uppercase text_purple ">
                     155 activities found
                 </p>
             </div>
-            <div class="input_group_wrapper col-md-5">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Seach by destination, activity or attraction..." aria-label="Seach by destination, activity or attraction..." aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary text-uppercase qanelassemibold" type="button" id="button-addon2"><i
-                                class="fal fa-search"></i></button>
+            <div class="input_group_wrapper col-md-5 ">
+                <div class="input-group ">
+                    <input type="text " class="form-control " placeholder="Seach by destination, activity or attraction... " aria-label="Seach by destination, activity or attraction... " aria-describedby="button-addon2 ">
+                    <div class="input-group-append ">
+                        <button class="btn btn-secondary text-uppercase qanelassemibold " type="button " id="button-addon2 "><i
+                                class="fal fa-search "></i></button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="filters row justify-content-between">
-            <div class="item_filters col-md-8">
-                <div class="row">
+        <div class="filters row justify-content-between ">
+            <div class="item_filters col-md-8 ">
+                <div class="row ">
                     <div class="col-md-3 pr-1 ">
-                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between">
+                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between ">
                             Destinations
-                            <i class="fal fa-angle-down align-self-center"></i>
+                            <i class="fal fa-angle-down align-self-center "></i>
                         </h6>
                     </div>
                     <div class="col-md-3 pr-1 ">
-                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between">
+                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between ">
                             Availability
-                            <i class="fal fa-angle-down align-self-center"></i>
+                            <i class="fal fa-angle-down align-self-center "></i>
                         </h6>
                     </div>
                     <div class="col-md-3 pr-1 ">
-                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between">
+                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between ">
                             Price Range
-                            <i class="fal fa-angle-down align-self-center"></i>
+                            <i class="fal fa-angle-down align-self-center "></i>
                         </h6>
                     </div>
                     <div class="col-md-3 pr-1 ">
-                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between">
+                        <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between ">
                             Instant Confirmation
-                            <i class="fal fa-angle-down align-self-center"></i>
+                            <i class="fal fa-angle-down align-self-center "></i>
                         </h6>
                     </div>
                 </div>
             </div>
-            <div class="item_sorter col-md-2">
-                <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between">
+            <div class="item_sorter col-md-2 ">
+                <h6 class="item_dropdown py-2 px-3 d-flex rounded justify-content-between ">
                     Most Relevent
-                    <i class="fal fa-angle-down align-self-center"></i>
+                    <i class="fal fa-angle-down align-self-center "></i>
                 </h6>
             </div>
         </div>
-        <div class="tags d-flex mt-3">
-            <h5 class="d-flex pr-2">
-                <span class="p-2 badge badge-pill badge-light text-capitalize text-muted">Siem Reap <i class="fal fa-times pl-2"></i></span>
+        <div class="tags d-flex mt-3 ">
+            <h5 class="d-flex pr-2 ">
+                <span class="p-2 badge badge-pill badge-light text-capitalize text-muted ">Siem Reap <i class="fal fa-times pl-2 "></i></span>
             </h5>
-            <h5 class="d-flex pr-2">
-                <span class="p-2 badge badge-pill badge-light text-capitalize text-muted">Phnom Penh <i class="fal fa-times pl-2"></i></span>
+            <h5 class="d-flex pr-2 ">
+                <span class="p-2 badge badge-pill badge-light text-capitalize text-muted ">Phnom Penh <i class="fal fa-times pl-2 "></i></span>
             </h5>
-            <h5 class="d-flex pr-2">
-                <span class="p-2 badge badge-pill badge-light text-capitalize text-muted">Tomorrow <i class="fal fa-times pl-2"></i></span>
+            <h5 class="d-flex pr-2 ">
+                <span class="p-2 badge badge-pill badge-light text-capitalize text-muted ">Tomorrow <i class="fal fa-times pl-2 "></i></span>
                 </h4>
-                <h5 class="d-flex pr-2">
-                    <span class="p-2 badge badge-pill badge-light text-capitalize text-muted">US$ 12.00 - US$ 300.00 <i class="fal fa-times pl-2"></i></span>
+                <h5 class="d-flex pr-2 ">
+                    <span class="p-2 badge badge-pill badge-light text-capitalize text-muted ">US$ 12.00 - US$ 300.00 <i class="fal fa-times pl-2 "></i></span>
                 </h5>
         </div>
         <div class=" mt-5 mb-1 activities_cards d-flex flex-wrap px-0 ">
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
+                <div class=" card active ">
+                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                    <div class=" card-body ">
+                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                        <div class="d-flex ">
+                            <div class=" symbol_underline valign_wrapper ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                            </div>
+                            <p class="mx-3 mb-0 ">(290 reviews)</p>
+                        </div>
+                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                        <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
+                <div class=" card active ">
+                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                    <div class=" card-body ">
+                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                        <div class="d-flex ">
+                            <div class=" symbol_underline valign_wrapper ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                            </div>
+                            <p class="mx-3 mb-0 ">(290 reviews)</p>
+                        </div>
+                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                        <p class="avail_date m-0 text-success text-capitalize ">Available today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
+
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -204,8 +569,51 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 ">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
+
+                <div class=" card ">
+                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                    <div class=" card-body ">
+                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                        <div class="d-flex ">
+                            <div class=" symbol_underline valign_wrapper ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                            </div>
+                            <p class="mx-3 mb-0 ">(290 reviews)</p>
+                        </div>
+                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                        <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
+
+                <div class=" card ">
+                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
+                    <div class=" card-body ">
+                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
+                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                        <div class="d-flex ">
+                            <div class=" symbol_underline valign_wrapper ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                            </div>
+                            <p class="mx-3 mb-0 ">(290 reviews)</p>
+                        </div>
+                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                        <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -226,8 +634,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -248,8 +655,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -270,8 +676,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -292,96 +697,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 ">
-                <div class=" card ">
-                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                    <div class=" card-body ">
-                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                        <div class="d-flex ">
-                            <div class=" symbol_underline valign_wrapper ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                            </div>
-                            <p class="mx-3 mb-0 ">(290 reviews)</p>
-                        </div>
-                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                        <p class="avail_date m-0 text-success text-capitalize ">Available today</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
-                <div class=" card ">
-                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                    <div class=" card-body ">
-                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                        <div class="d-flex ">
-                            <div class=" symbol_underline valign_wrapper ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                            </div>
-                            <p class="mx-3 mb-0 ">(290 reviews)</p>
-                        </div>
-                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                        <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
-                <div class=" card ">
-                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                    <div class=" card-body ">
-                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                        <div class="d-flex ">
-                            <div class=" symbol_underline valign_wrapper ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                            </div>
-                            <p class="mx-3 mb-0 ">(290 reviews)</p>
-                        </div>
-                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                        <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
-                <div class=" card ">
-                    <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                    <div class=" card-body ">
-                        <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                        <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                        <div class="d-flex ">
-                            <div class=" symbol_underline valign_wrapper ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                            </div>
-                            <p class="mx-3 mb-0 ">(290 reviews)</p>
-                        </div>
-                        <p class="text-danger mt-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                        <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 ">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -402,8 +718,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -424,8 +739,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper col-md-3 px-2 mb-3">
-                <img src="./img/hot-topic.svg" alt="hot-topic" class="hot-topic pl-3 active">
+            <div class="card-wrapper col-md-3 px-2 mb-3 ">
                 <div class=" card ">
                     <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
                     <div class=" card-body ">
@@ -447,110 +761,110 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="pagination_un bg-white p-3 valign_wrapper justify-content-center">
-            <div class="item_wrapper"><span class="item qanelassemibold"><i class="fal fa-chevron-left"></i></span></div>
-            <div class="item_wrapper --active"><span class="item qanelassemibold">1</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold">2</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold">3</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold">...</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold">11</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold">12</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold">13</span></div>
-            <div class="item_wrapper"><span class="item qanelassemibold"><i class="fal fa-chevron-right"></i></span></div>
+        <!-- <div class="pagination_un bg-white p-3 valign_wrapper justify-content-center ">
+            <div class="item_wrapper "><span class="item qanelassemibold "><i class="fal fa-chevron-left "></i></span></div>
+            <div class="item_wrapper --active "><span class="item qanelassemibold ">1</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold ">2</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold ">3</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold ">...</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold ">11</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold ">12</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold ">13</span></div>
+            <div class="item_wrapper "><span class="item qanelassemibold "><i class="fal fa-chevron-right "></i></span></div>
         </div> -->
 
     </section>
 
     <!-- Newsletter -->
-    <section class="newsletter container-fluid bg-white py-4 mt-5">
-        <div class="container valign_wrapper">
-            <div class="text">
-                <i class="fal fa-envelope-open"></i>
-                <p class="qanelassemibold mt-1">Subscribe to our newsletter now and be the first to know about Unseentra's latest promos!</p>
+    <section class="newsletter container-fluid bg-white py-4 mt-5 ">
+        <div class="container valign_wrapper ">
+            <div class="text ">
+                <i class="fal fa-envelope-open "></i>
+                <p class="qanelassemibold mt-1 ">Subscribe to our newsletter now and be the first to know about Unseentra's latest promos!</p>
             </div>
 
-            <form action="#!">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Enter your email here" aria-label="Enter your email here" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary text-uppercase qanelassemibold" type="button" id="button-addon2">Subscribe</button>
+            <form action="#! ">
+                <div class="input-group ">
+                    <input type="text " class="form-control " placeholder="Enter your email here " aria-label="Enter your email here " aria-describedby="button-addon2 ">
+                    <div class="input-group-append ">
+                        <button class="btn btn-primary text-uppercase qanelassemibold " type="button " id="button-addon2 ">Subscribe</button>
                     </div>
                 </div>
 
-                <small class="text-muted d-block mt-2">By clicking Subscribe, you have agreed to our <a href="#!"
-                        class="text-reset">Terms & Conditions</a> and
-                    <a href="#!" class="text-reset">Privacy Policy</a></small>
+                <small class="text-muted d-block mt-2 ">By clicking Subscribe, you have agreed to our <a href="#! "
+                        class="text-reset ">Terms & Conditions</a> and
+                    <a href="#! " class="text-reset ">Privacy Policy</a></small>
             </form>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-primary py-4">
-        <div class="container d-flex pb-3 f1">
-            <div class="col_wrapper col_one">
-                <img src="img/logo.svg" alt="" height="34">
-                <p class="mt-2 text-white">We will provide unique bucket-list travel experiences and activities, which are offered by individual and cooperation, to FIT from all around the world.</p>
-                <div class="social valign_wrapper">
-                    <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Facebook">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-facebook-f"></i></div>
+    <footer class="container-fluid bg-primary py-4 ">
+        <div class="container d-flex pb-3 f1 ">
+            <div class="col_wrapper col_one ">
+                <img src="img/logo.svg " alt=" " height="34 ">
+                <p class="mt-2 text-white ">We will provide unique bucket-list travel experiences and activities, which are offered by individual and cooperation, to FIT from all around the world.</p>
+                <div class="social valign_wrapper ">
+                    <a href="#! " class="text-decoration-none mr-2 " target="_blank " title="Facebook ">
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fab fa-facebook-f "></i></div>
                     </a>
-                    <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Instagram">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-instagram"></i></div>
+                    <a href="#! " class="text-decoration-none mr-2 " target="_blank " title="Instagram ">
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fab fa-instagram "></i></div>
                     </a>
-                    <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Twitter">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-twitter"></i></div>
+                    <a href="#! " class="text-decoration-none mr-2 " target="_blank " title="Twitter ">
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fab fa-twitter "></i></div>
                     </a>
-                    <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Wechat">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-weixin"></i></div>
+                    <a href="#! " class="text-decoration-none mr-2 " target="_blank " title="Wechat ">
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fab fa-weixin "></i></div>
                     </a>
                 </div>
             </div>
-            <div class="col_wrapper col_two">
-                <h5 class="qanelasextrabold text-uppercase text-white">about unseentra</h5>
-                <div class="link_wrapper mt-3">
-                    <a href="#!" class="text-white mb-3">About Us</a>
-                    <a href="#!" class="text-white mb-3">Our Blog</a>
-                    <a href="#!" class="text-white mb-3">Partner With Us</a>
-                    <a href="#!" class="text-white mb-3">Career</a>
-                    <a href="#!" class="text-white mb-3">Terms And Conditions</a>
-                    <a href="#!" class="text-white mb-3">Privacy Policy</a>
-                    <a href="#!" class="text-white mb-3">Cookie Policy</a>
-                    <a href="#!" class="text-white mb-3">Sitemap</a>
+            <div class="col_wrapper col_two ">
+                <h5 class="qanelasextrabold text-uppercase text-white ">about unseentra</h5>
+                <div class="link_wrapper mt-3 ">
+                    <a href="#! " class="text-white mb-3 ">About Us</a>
+                    <a href="#! " class="text-white mb-3 ">Our Blog</a>
+                    <a href="#! " class="text-white mb-3 ">Partner With Us</a>
+                    <a href="#! " class="text-white mb-3 ">Career</a>
+                    <a href="#! " class="text-white mb-3 ">Terms And Conditions</a>
+                    <a href="#! " class="text-white mb-3 ">Privacy Policy</a>
+                    <a href="#! " class="text-white mb-3 ">Cookie Policy</a>
+                    <a href="#! " class="text-white mb-3 ">Sitemap</a>
                 </div>
             </div>
-            <div class="col_wrapper col_three">
-                <h5 class="qanelasextrabold text-uppercase text-white">contact us</h5>
-                <div class="item_wrapper mt-3">
-                    <div class="item valign_wrapper mb-2 text-white">
-                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-map-marker-alt"></i>
+            <div class="col_wrapper col_three ">
+                <h5 class="qanelasextrabold text-uppercase text-white ">contact us</h5>
+                <div class="item_wrapper mt-3 ">
+                    <div class="item valign_wrapper mb-2 text-white ">
+                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fal fa-map-marker-alt "></i>
                         </div>
-                        <span class="pl-2">Toul Kork, Phnom Penh, Cambodia</span>
+                        <span class="pl-2 ">Toul Kork, Phnom Penh, Cambodia</span>
                     </div>
-                    <div class="item valign_wrapper mb-2 text-white">
-                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-phone-alt"></i></div>
-                        <span class="pl-2 text-white">(855) 097 9990002, (855) 023 000111</span>
+                    <div class="item valign_wrapper mb-2 text-white ">
+                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fal fa-phone-alt "></i></div>
+                        <span class="pl-2 text-white ">(855) 097 9990002, (855) 023 000111</span>
                     </div>
-                    <div class="item valign_wrapper mb-2 text-white">
-                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-envelope-open"></i>
+                    <div class="item valign_wrapper mb-2 text-white ">
+                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain " style="background-image: url( 'img/iconic-logo.svg') "><i class="fal fa-envelope-open "></i>
                         </div>
-                        <span class="pl-2">info@unseentra.com</span>
+                        <span class="pl-2 ">info@unseentra.com</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container f2">
-            <div class="bottom_footer pt-3 text-white valign_wrapper justify-content-between">
+        <div class="container f2 ">
+            <div class="bottom_footer pt-3 text-white valign_wrapper justify-content-between ">
                 <span>Copyright © 2019 Unseentra. All rights reserve.</span>
-                <div class="bottom_footer_right valign_wrapper">
-                    <span class="mr-2">We Accept Payment:</span>
-                    <div class="payment_wrapper">
-                        <img src="img/payment1.png" alt="" class="mr-1">
-                        <img src="img/payment2.png" alt="" class="mr-1">
-                        <img src="img/payment3.png" alt="" class="mr-1">
-                        <img src="img/payment4.png" alt="" class="mr-1">
-                        <img src="img/payment5.png" alt="" class="mr-1">
-                        <img src="img/payment6.png" alt="" class="mr-1">
+                <div class="bottom_footer_right valign_wrapper ">
+                    <span class="mr-2 ">We Accept Payment:</span>
+                    <div class="payment_wrapper ">
+                        <img src="img/payment1.png " alt=" " class="mr-1 ">
+                        <img src="img/payment2.png " alt=" " class="mr-1 ">
+                        <img src="img/payment3.png " alt=" " class="mr-1 ">
+                        <img src="img/payment4.png " alt=" " class="mr-1 ">
+                        <img src="img/payment5.png " alt=" " class="mr-1 ">
+                        <img src="img/payment6.png " alt=" " class="mr-1 ">
                     </div>
                 </div>
             </div>
