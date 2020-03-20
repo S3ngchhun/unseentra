@@ -59,3 +59,19 @@ $('.tab_items.tour_tab').click(function() {
         $('.tab_content.tour').addClass('active');
     }
 });
+
+var input_spinner = $('.input_spinner');
+var minus_btn = $('.input_spinner .prefix');
+var plus_btn = $('.input_spinner .surfix');
+var qty = $('.input_spinner .input');
+
+minus_btn.click(function() {
+    let current_qty = qty.val();
+    if (current_qty > 0) {
+        qty.val(current_qty - 1);
+    }
+});
+plus_btn.click(function() {
+    let current_qty = parseInt(qty.val());
+    qty.val(current_qty + 1);
+});
