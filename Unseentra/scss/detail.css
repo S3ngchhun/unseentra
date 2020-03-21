@@ -115,6 +115,9 @@
 
 .price .container-fluid {
     border-radius: 4px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 112px;
 }
 
 .avail_accommodation::before {

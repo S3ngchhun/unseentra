@@ -60,6 +60,8 @@ $('.tab_items.tour_tab').click(function() {
     }
 });
 
+
+// Input Spinner
 var input_spinner = $('.input_spinner');
 var minus_btn = $('.input_spinner .prefix');
 var plus_btn = $('.input_spinner .surfix');
