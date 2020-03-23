@@ -77,3 +77,6 @@ plus_btn.click(function() {
     let current_qty = parseInt(qty.val());
     qty.val(current_qty + 1);
 });
+$(function() {
+    $("#dob").datepicker();
+});

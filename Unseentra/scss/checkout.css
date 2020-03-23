@@ -12,12 +12,12 @@
     padding-left: 75px;
 }
 
-.personal_info {
-    background-color: white;
-}
-
 .selected_items {
     background-color: #F5F6F7;
+    border-radius: 4px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 112px;
 }
 
 .selected_items p {
@@ -57,4 +57,59 @@
     position: absolute;
     margin-left: 1rem !important;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+}
+
+input.form-control,
+button.form-control {
+    height: 44px;
+}
+
+button.country_code {
+    border: 1px solid #ced4da;
+}
+
+button.country_code img {
+    vertical-align: sub !important;
+}
+
+.payment_method_items label span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.payment_method_items label div.border{
+    min-height: 86px;
+}
+
+.payment_method_items label div img{
+    padding: .5rem 0 !important;
+    height: 46px;
+}
+
+.payment_method_items label:hover input ~ .checkmark{
+    background-color: #C3C4C7 !important;
+}
+
+.checkmark::after{
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.payment_method_items label input:checked ~ .checkmark::after{
+    display: block;
+}
+
+.checkmark::after{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #263873;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

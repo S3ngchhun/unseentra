@@ -25,7 +25,8 @@
         <div class="header_menu valign_wrapper text-white">
             <div class="valign_wrapper ">
 
-                <div class="valign_wrapper mr-4 language"><img src="img/en.png" alt="" height="16" class="mr-2"> <i class="fal fa-angle-down"></i>
+                <div class="valign_wrapper mr-4 language"><img src="img/en.png" alt="" height="16" class="mr-2"> <i
+                        class="fal fa-angle-down"></i>
                     <ul class="language_item">
                         <li class="valign_wrapper"><img src="img/kh.png" alt="" height="16" class="mr-2">en</li>
                         <li class="valign_wrapper --active"><img src="img/en.png" alt="" height="16" class="mr-2">kh
@@ -68,20 +69,199 @@
     </section>
 
     <!-- Content -->
-    <section class="container checkout_content my-5">
+    <section class="container checkout_content my-4">
         <div class="row">
-            <div class="personal_info rounded col-md-8 p-4">
-                <h1 class="qanelasextrabold text-capitalize">Personal information</h1>
+
+            <!-- Payment Information -->
+            <div class="payment_info bg-white rounded col-md-8 p-4">
+
+                <!-- Personal Information -->
+                <div class="personal_info">
+                    <h1 class="qanelasextrabold text-capitalize mb-4">Personal information</h1>
+                    <div class="row mx-0">
+                        <div class="col-md-6 pl-0 ">
+                            <div class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" class="form-control" id="firstname" aria-describedby="firstName"
+                                    placeholder="Enter your first name">
+                            </div>
+                        </div>
+                        <div class="col-md-6 pr-0">
+                            <div class="form-group">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" class="form-control" id="lastname" aria-describedby="lastName"
+                                    placeholder="Enter your last name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-0">
+                        <div class="col-md-6 pl-0 ">
+                            <div class="form-group">
+                                <label for="dob">Date of birth</label>
+                                <input type="text" class="form-control" id="dob" aria-describedby="dateOfBirth"
+                                    placeholder="Day/Month/Year">
+                            </div>
+                        </div>
+                        <div class="col-md-6 pr-0">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="email"
+                                    placeholder="Enter your email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone_number">Phone number</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary text-primary country_code" type="button"><img
+                                        src="./img/kh.png" alt="kh" height="16"> +855<i
+                                        class="fal pl-2 fa-chevron-down"></i></button>
+                            </div>
+                            <input type="text" class="form-control border-left-0" id="phone_number"
+                                placeholder="Enter your phone number" aria-label="Phone number"
+                                aria-describedby="phone-number">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="payment_methods">
+                    <h1 class="qanelasextrabold text-capitalize my-4">Payment Method</h1>
+
+                    <!-- Local Payment methods -->
+                    <p class="lead text-capitalize">Local payment</p>
+                    <div class="row mx-md-n2 mb-4 payment_method_items">
+                        <label class="col-md-3 px-md-2 d-block" id="wings_payment">
+                            <div class="border rounded">
+                                <img class="mx-auto d-block mb-2" src="./img/wings.png" alt="wings">
+                                <div class="form-check">
+                                    <input class="d-none" type="radio" checked aria-labelledby="wings_payment"
+                                        name="payment_methods">
+                                    <span class="checkmark bg-secondary"></span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="col-md-3 px-md-2 d-block" id="aba_bank_payment">
+                            <div class="border rounded">
+                                <img class="mx-auto d-block mb-2" src="./img/aba-bank.png" alt="aba-bank">
+                                <div class="form-check">
+                                    <input class="d-none" type="radio" aria-labelledby="aba_bank_payment"
+                                        name="payment_methods">
+                                    <span class="checkmark bg-secondary"></span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="col-md-3 px-md-2 d-block" id="acleda_payment">
+                            <div class="border rounded">
+                                <img class="mx-auto d-block mb-2" src="./img/acleda.png" alt="acleda">
+                                <div class="form-check">
+                                    <input class="d-none" type="radio" aria-labelledby="acleda_payment"
+                                        name="payment_methods">
+                                    <span class="checkmark bg-secondary"></span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- International Payment methods -->
+                    <p class="lead text-capitalize">International payment</p>
+                    <div class="row mx-md-n2 mb-4 payment_method_items">
+                        <label class="col-md-3 px-md-2 d-block" id="cc_payment">
+                            <div class="border rounded">
+                                <img class="mx-auto d-block mb-2" src="./img/visa-master-card.png" alt="visa-master-card">
+                                <div class="form-check">
+                                    <input class="d-none" type="radio" aria-labelledby="cc_payment"
+                                        name="payment_methods">
+                                    <span class="checkmark bg-secondary"></span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="col-md-3 px-md-2 d-block" id="paypal_payment">
+                            <div class="border rounded">
+                                <img class="mx-auto d-block mb-2" src="./img/paypal.png" alt="paypal">
+                                <div class="form-check">
+                                    <input class="d-none" type="radio" aria-labelledby="paypal_payment"
+                                        name="payment_methods">
+                                    <span class="checkmark bg-secondary"></span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- Selected Master/Visa Card -->
+                    <p class="lead text-capitalize">You selected Master/Visa card</p>
+                    <div class="row mx-0">
+                        <div class="col-md-6 pl-0 ">
+                            <div class="form-group">
+                                <label for="name_on_card">Full name on card</label>
+                                <input type="text" class="form-control" id="name_on_card"
+                                    aria-describedby="fullNameOnCard" placeholder="Enter your full name on card">
+                            </div>
+                        </div>
+                        <div class="col-md-6 pr-0">
+                            <div class="form-group">
+                                <label for="credit_card_number">Credit card number</label>
+                                <input type="tel" class="form-control" maxlength="19" id="credit_card_number"
+                                    aria-describedby="creditCardNumber" placeholder="Enter your credit card number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-0">
+                        <div class="col-md-6 pl-0 ">
+                            <div class="form-group">
+                                <label for="cc_expire_month">Expire date</label>
+                                <div class="row mx-md-n1">
+                                    <div class="col-md-6 px-md-1 dropdown">
+                                        <button class="btn btn-outline-secondary w-100 text-primary text-left"
+                                            id="cc_expire_month" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Month <span class="float-right"><i
+                                                    class="fal pl-2 fa-chevron-down"></i></span></button>
+                                        <div class="dropdown-menu" aria-labelledby="cc_expire_month">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 px-md-1 dropdown">
+                                        <button class="btn btn-outline-secondary w-100 text-primary text-left"
+                                            id="cc_expire_year" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Year <span class="float-right"><i
+                                                    class="fal pl-2 fa-chevron-down"></i></span></button>
+                                        <div class="dropdown-menu" aria-labelledby="cc_expire_month">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pr-0 mb-2">
+                            <div class="form-group">
+                                <label for="cc_security_code">Security code</label>
+                                <input type="tel" class="form-control" maxlength="19" id="cc_security_code"
+                                    aria-describedby="creditCardSecurityCode" placeholder="CVV">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary w-100">Confirm Booking</button>
+                    </div>
+                </div>
+
             </div>
+
+            <!-- Selected Item -->
             <div class="col-md-4 pl-4">
                 <div class="selected_items shadow-sm rounded p-4">
-                    <p>Items you have selected:</p>
+                    <p>Items your have selected:</p>
                     <div class="card-wrapper px-0">
                         <div class=" card ">
                             <img src=" ./img/activity-example.png " alt="activity " class=" card-img-top ">
                             <div class=" card-body ">
-                                <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                                <p class="activity_name qanelassemibold mb-1 ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
+                                <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
+                                </p>
+                                <p class="activity_name qanelassemibold mb-1 ">Gardens by the Bay Ticket in Singapore
+                                    (Direct Entry)</p>
                                 <div class="d-flex ">
                                     <div class=" symbol_underline valign_wrapper ">
                                         <img src="img/iconic-logo.svg " alt=" " width="20 ">
@@ -92,7 +272,8 @@
                                     </div>
                                     <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
                                 </div>
-                                <p class="text-danger mt-2 mb-0 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
+                                <p class="text-danger mt-2 mb-0 ">US$ 38.09 <del class="text-muted ml-2 ">US$
+                                        41.35</del></p>
                             </div>
                         </div>
                     </div>
@@ -102,24 +283,52 @@
         </div>
     </section>
 
+    <!-- Newsletter -->
+    <section class="newsletter container-fluid bg-white py-4 mt-5">
+        <div class="container valign_wrapper">
+            <div class="text">
+                <i class="fal fa-envelope-open"></i>
+                <p class="qanelassemibold mt-1">Subscribe to our newsletter now and be the first to know about Unseentra's latest promos!</p>
+            </div>
+
+            <form action="#!">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter your email here" aria-label="Enter your email here" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary text-uppercase qanelassemibold" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+
+                <small class="text-muted d-block mt-2">By clicking Subscribe, you have agreed to our <a href="#!"
+                        class="text-reset">Terms & Conditions</a> and
+                    <a href="#!" class="text-reset">Privacy Policy</a></small>
+            </form>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="container-fluid bg-primary py-4">
         <div class="container d-flex pb-3 f1">
             <div class="col_wrapper col_one">
                 <img src="img/logo.svg" alt="" height="34">
-                <p class="mt-2 text-white">We will provide unique bucket-list travel experiences and activities, which are offered by individual and cooperation, to FIT from all around the world.</p>
+                <p class="mt-2 text-white">We will provide unique bucket-list travel experiences and activities, which
+                    are offered by individual and cooperation, to FIT from all around the world.</p>
                 <div class="social valign_wrapper">
                     <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Facebook">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-facebook-f"></i></div>
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-facebook-f"></i></div>
                     </a>
                     <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Instagram">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-instagram"></i></div>
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-instagram"></i></div>
                     </a>
                     <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Twitter">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-twitter"></i></div>
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-twitter"></i></div>
                     </a>
                     <a href="#!" class="text-decoration-none mr-2" target="_blank" title="Wechat">
-                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-weixin"></i></div>
+                        <div class="item valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fab fa-weixin"></i></div>
                     </a>
                 </div>
             </div>
@@ -140,16 +349,19 @@
                 <h5 class="qanelasextrabold text-uppercase text-white">contact us</h5>
                 <div class="item_wrapper mt-3">
                     <div class="item valign_wrapper mb-2 text-white">
-                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-map-marker-alt"></i>
+                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-map-marker-alt"></i>
                         </div>
                         <span class="pl-2">Toul Kork, Phnom Penh, Cambodia</span>
                     </div>
                     <div class="item valign_wrapper mb-2 text-white">
-                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-phone-alt"></i></div>
+                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-phone-alt"></i></div>
                         <span class="pl-2 text-white">(855) 097 9990002, (855) 023 000111</span>
                     </div>
                     <div class="item valign_wrapper mb-2 text-white">
-                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain" style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-envelope-open"></i>
+                        <div class="icon valign_wrapper justify-content-center bg_img bg_img_contain"
+                            style="background-image: url('img/iconic-logo.svg')"><i class="fal fa-envelope-open"></i>
                         </div>
                         <span class="pl-2">info@unseentra.com</span>
                     </div>
@@ -181,6 +393,8 @@
     <script src="js/bootstrap.min.js "></script>
 
     <script src="js/main.js "></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
 
 </html>
