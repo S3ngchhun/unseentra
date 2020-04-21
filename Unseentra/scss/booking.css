@@ -1,0 +1,10 @@
+.booking .page_tabs a.active{
+    color: white;
+    background-color: #263873 !important;
+}
+
+.list_categories .category a.active{
+    background-image: linear-gradient(0.5turn, #FCAC19, #F47820);
+    border: 0;
+    color: #ffffff;
+}
