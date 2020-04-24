@@ -1,0 +1,7 @@
+.profile_picture{
+    height: 128px;
+    width: 128px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
