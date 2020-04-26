@@ -58,7 +58,7 @@
         <!-- Page Tabs -->
         <div class="page_tabs row m-0 mb-5">
             <div class="mr-2">
-                <a href="#" class="bg-white d-block p-3 mr-2 rounded active"><i
+                <a href="#" class="bg-white d-block p-3 mr-2 rounded"><i
                         class="fal fa-border-all pl-2 mr-2"></i>Dashboard</a>
             </div>
             <div class="mr-2">
@@ -66,7 +66,8 @@
                         class="fal fa-list-ol pl-2 mr-2"></i></i>Booking</a>
             </div>
             <div class="mr-2">
-                <a href="#" class="bg-white d-block p-3 mr-2 rounded"><i class="fal fa-heart pl-2 mr-2"></i>Wishlist</a>
+                <a href="#" class="bg-white d-block p-3 mr-2 rounded active"><i
+                        class="fal fa-heart pl-2 mr-2"></i>Wishlist</a>
             </div>
             <div class="mr-2">
                 <a href="#" class="bg-white d-block p-3 mr-2 rounded"><i class="fal fa-cog pl-2 mr-2"></i>Account
@@ -74,141 +75,150 @@
             </div>
         </div>
 
-        <!-- Dashboard -->
-        <div class="container-fluid p-0 m-0 mb-5">
-            <!-- Profile -->
-            <div class="profile mb-5 p-4 bg-white row m-0 align-items-center justify-content-between">
-                <div class="row m-0 align-items-center">
-                    <div class="profile_picture mr-4" style="background-image: url('./img/profile.jpg');"></div>
-                    <div class="profile_name">
-                        <p class="lead mb-1">Jerry Green</p>
-                        <p>green177@gmail.com</p>
-                    </div>
-                </div>
-                <button class="rounded btn btn-secondary">Edit Profile</button>
+        <!-- Page Content -->
+        <div class="wishlist mb-5">
+            <h1 class="qanelasextrabold">Wishlist</h1>
+            <div class=" symbol_underline valign_wrapper justify-content-start mb-4">
+                <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
+                <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
             </div>
 
-            <!-- Recent Bookings -->
-            <div class="recent_bookings mb-4">
-                <h1 class="qanelasextrabold text-center text-uppercase">Recent bookings</h1>
-                <div class=" symbol_underline valign_wrapper justify-content-center mb-4">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                </div>
-                
-                <div class="list-body container-fluid p-0">
-                    <div class="booking_items pending row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
-    
-                        <div class="lefty d-flex align-self-center">
-                            <div class="thumbnail rounded"
-                                style="background-image: url('./img/activity-example.png');">
-                            </div>
-                            <div class="px-4 py-2">
-                                <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
-                                </p>
-                                <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
-                                    (Direct Entry)</h6>
-    
-                                <div class="d-flex ">
-                                    <div class=" symbol_underline valign_wrapper ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    </div>
-                                    <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                                </div>
-    
-                                <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
-                                <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
-                            </div>
-                        </div>
-                        <div class="righty d-flex align-self-center mr-3">
-                        <div class="text-right align-self-center">
-                            <p class="m-0">Quantity: 3</p>
-                            <p class="text-danger m-0">Total amount</p>
-                            <h3 class="text-danger m-0 qanelassemibold">US$ 114.27</h3>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="booking_items confirmed row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
-    
-                        <div class="lefty d-flex align-self-center">
-                            <div class="thumbnail rounded"
-                                style="background-image: url('./img/activity-example.png');">
-                            </div>
-                            <div class="px-4 py-2">
-                                <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
-                                </p>
-                                <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
-                                    (Direct Entry)</h6>
-    
-                                <div class="d-flex ">
-                                    <div class=" symbol_underline valign_wrapper ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    </div>
-                                    <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                                </div>
-    
-                                <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
-                                <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
-                            </div>
-                        </div>
-                        <div class="righty d-flex align-self-center mr-3">
-                        <div class="text-right align-self-center">
-                            <p class="m-0">Quantity: 3</p>
-                            <p class="text-danger m-0">Total amount</p>
-                            <h3 class="text-danger m-0 qanelassemibold">US$ 114.27</h3>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="booking_items rejected row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
-    
-                        <div class="lefty d-flex align-self-center">
-                            <div class="thumbnail rounded"
-                                style="background-image: url('./img/activity-example.png');">
-                            </div>
-                            <div class="px-4 py-2">
-                                <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
-                                </p>
-                                <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
-                                    (Direct Entry)</h6>
-    
-                                <div class="d-flex ">
-                                    <div class=" symbol_underline valign_wrapper ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                        <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    </div>
-                                    <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                                </div>
-    
-                                <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
-                                <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
-                            </div>
-                        </div>
-                        <div class="righty d-flex align-self-center mr-3">
-                        <div class="text-right align-self-center">
-                            <p class="m-0">Quantity: 3</p>
-                            <p class="text-danger m-0">Total amount</p>
-                            <h3 class="text-danger m-0 qanelassemibold">US$ 114.27</h3>
-                        </div>
-                        </div>
-                    </div>
+            <div class="list-body container-fluid p-0">
+                <div class="booking_items row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
 
-                    <button class="btn btn-primary w-100">View All Booking</button>
+                    <div class="lefty d-flex align-self-center">
+                        <div class="thumbnail rounded" style="background-image: url('./img/activity-example.png');">
+                        </div>
+                        <div class="px-4 py-2">
+                            <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
+                            </p>
+                            <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
+                                (Direct Entry)</h6>
+
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+
+                            <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
+                            <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
+                        </div>
+                    </div>
+                    <div class="righty d-flex align-items-center mr-3 w-20">
+                        <div>
+                            <button class="btn btn-primary rounded w-100 mb-2">Book Now</button>
+                            <button class="btn btn-secondary rounded w-100">Remove</button>
+                        </div>
+                    </div>
                 </div>
-                
+                <div class="booking_items row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
+
+                    <div class="lefty d-flex align-self-center">
+                        <div class="thumbnail rounded" style="background-image: url('./img/activity-example.png');">
+                        </div>
+                        <div class="px-4 py-2">
+                            <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
+                            </p>
+                            <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
+                                (Direct Entry)</h6>
+
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+
+                            <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
+                            <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
+                        </div>
+                    </div>
+                    <div class="righty d-flex align-items-center mr-3 w-20">
+                        <div>
+                            <button class="btn btn-primary rounded w-100 mb-2">Book Now</button>
+                            <button class="btn btn-secondary rounded w-100">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking_items row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
+
+                    <div class="lefty d-flex align-self-center">
+                        <div class="thumbnail rounded" style="background-image: url('./img/activity-example.png');">
+                        </div>
+                        <div class="px-4 py-2">
+                            <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
+                            </p>
+                            <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
+                                (Direct Entry)</h6>
+
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+
+                            <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
+                            <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
+                        </div>
+                    </div>
+                    <div class="righty d-flex align-items-center mr-3 w-20">
+                        <div>
+                            <button class="btn btn-primary rounded w-100 mb-2">Book Now</button>
+                            <button class="btn btn-secondary rounded w-100">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking_items row m-0 rounded bg-white p-2 mb-4 w-100 justify-content-between ">
+
+                    <div class="lefty d-flex align-self-center">
+                        <div class="thumbnail rounded" style="background-image: url('./img/activity-example.png');">
+                        </div>
+                        <div class="px-4 py-2">
+                            <p class="location mb-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore
+                            </p>
+                            <h6 class="text-capitalize qanelassemibold">Gardens by the Bay Ticket in Singapore
+                                (Direct Entry)</h6>
+
+                            <div class="d-flex ">
+                                <div class=" symbol_underline valign_wrapper ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
+                                </div>
+                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
+                            </div>
+
+                            <p class="booking_id text-danger pt-2 mb-0">Booking ID: UN001</p>
+                            <p class="booking_date text-danger m-0">Booking Date: 18 October 2019</p>
+                        </div>
+                    </div>
+                    <div class="righty d-flex align-items-center mr-3 w-20">
+                        <div>
+                            <button class="btn btn-primary rounded w-100 mb-2">Book Now</button>
+                            <button class="btn btn-secondary rounded w-100">Remove</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- In case there's no booking -->
@@ -221,107 +231,6 @@
                     elit non tempus elementum.</p>
             </div>
 
-
-        </div>
-        <!-- Explore in Cambodia -->
-        <div class="container explore_in_cambodia mb-5 px-0">
-            <div class=" text-center ">
-                <h1 class=" qanelasextrabold text-uppercase mb-1 ">Explore more packages</h1>
-                <div class=" symbol_underline valign_wrapper justify-content-center mb-4 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                    <img class=" mx-1 " src=" img/iconic-logo.svg " alt=" " width=" 20 ">
-                </div>
-            </div>
-
-            <div class="activities_cards d-flex flex-wrap px-0 ">
-                <div class="card-wrapper col-md-3 px-2">
-                    <div class=" card ">
-                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                        <div class=" card-body ">
-                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                            <div class="d-flex ">
-                                <div class=" symbol_underline valign_wrapper ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                </div>
-                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                            </div>
-                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wrapper col-md-3 px-2">
-                    <div class=" card active">
-                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                        <div class=" card-body ">
-                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                            <div class="d-flex ">
-                                <div class=" symbol_underline valign_wrapper ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                </div>
-                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                            </div>
-                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                            <p class="avail_date m-0 text-success text-capitalize ">Available today</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wrapper col-md-3 px-2">
-                    <div class=" card ">
-                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                        <div class=" card-body ">
-                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                            <div class="d-flex ">
-                                <div class=" symbol_underline valign_wrapper ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                </div>
-                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                            </div>
-                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wrapper col-md-3 px-2 ">
-                    <div class=" card ">
-                        <img src=" ./img/activity-example.png " alt=" activity " class=" card-img-top ">
-                        <div class=" card-body ">
-                            <p class="location my-1 "><i class="mr-2 fal fa-map-marker-alt "></i>Yilan - Singapore</p>
-                            <p class="activity_name qanelassemibold ">Gardens by the Bay Ticket in Singapore (Direct Entry)</p>
-                            <div class="d-flex ">
-                                <div class=" symbol_underline valign_wrapper ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                    <img src="img/iconic-logo.svg " alt=" " width="20 ">
-                                </div>
-                                <p class="mx-3 mb-0 text-muted">(290 reviews)</p>
-                            </div>
-                            <p class="text-danger my-2 ">US$ 38.09 <del class="text-muted ml-2 ">US$ 41.35</del></p>
-                            <p class="avail_date m-0 ">Available from 7 Dec 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
     </section>
