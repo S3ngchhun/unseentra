@@ -1,0 +1,45 @@
+
+input.form-control,
+button.form-control {
+    height: 44px;
+}
+
+button.country_code {
+    border: 1px solid #ced4da;
+}
+
+button.country_code img {
+    vertical-align: sub !important;
+}
+
+.profile_photo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile_photo:hover{
+    filter: brightness(0.9);
+}
+
+.profile_photo::after{
+    content: '\f083';
+    color: white;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    font-size: 1.5rem;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.change_password .cover_image{
+    min-width: 350px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
