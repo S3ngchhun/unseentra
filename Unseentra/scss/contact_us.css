@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+.header.active {
+    background-color: #263873!important;
+}
+
+.header_logo {
+    padding-left: 75px;
+}
+
+.contact_us .bg-white{
+    min-height: 12rem;
+}
+
+.contact_us .bg-white i{
+    font-size: 2rem;
+}
+
+.maps{
+    height: 20rem;
+}

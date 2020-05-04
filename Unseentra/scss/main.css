@@ -655,3 +655,9 @@ footer .bottom_footer {
     background-repeat: no-repeat;
     width: 260px;
 }
+
+.text_gradient{
+    background: linear-gradient(0.5turn, #FCAC19, #F47820);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
